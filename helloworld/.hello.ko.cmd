@@ -1,0 +1,1 @@
+cmd_/home/xiangyi/code/driver/helloworld/hello.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/xiangyi/code/driver/helloworld/hello.ko /home/xiangyi/code/driver/helloworld/hello.o /home/xiangyi/code/driver/helloworld/hello.mod.o;  true
